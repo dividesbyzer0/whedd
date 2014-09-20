@@ -36,7 +36,7 @@
         <ul>
           <li class="signup"><a href="">Sign Up</a></li>
           <li class="navbar"> | </li>
-          <li class="login"><a href="">Log In</a></li>            
+          <li class="login-nav"><a href="">Log In</a></li>            
         </ul>
       </nav>
     </header>
