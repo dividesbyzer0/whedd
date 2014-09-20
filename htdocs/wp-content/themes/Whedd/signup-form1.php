@@ -1,0 +1,7 @@
+asdasdfg
+<div id="form"> 
+<form action="">
+<input type="radio" name="sex" value="male">Male<br>
+<input type="radio" name="sex" value="female">Female
+</form>
+</div>
