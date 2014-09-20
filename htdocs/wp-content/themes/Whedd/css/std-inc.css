@@ -1,0 +1,20 @@
+.center-h {
+  text-align: center; /* center horizontally */
+}
+
+.center-parent {
+  text-align:center; /* center horizontally */
+  vertical-align:middle; /* center vertically */
+  position: relative; /* set parent position relative to vertically center child */
+}
+
+.center-child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.clear {
+  clear: both;
+}

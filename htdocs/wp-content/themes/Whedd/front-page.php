@@ -16,36 +16,36 @@ get_header();
 $args = array('redirect' => get_permalink( get_page( $page_id_of_member_area ) ) );
 ?>
 
-    <section id="content"> <!-- main site content-->
+  <section id="content"> <!-- main site content-->
     <div id="main" class="row">
       <div class="grid col-7">
-        <div id='form1' class="circle">
-        Form 1
-	  <div class="loginForm">
+        <div id='login' class="loginForm circle center-parent">
+          Form 1
+          <div class="center-child">
             <?php wp_login_form($args); ?>
             <?php if(isset($_GET['login']) && $_GET['login'] == 'failed') {?>
-                <div id="login-error" class="error">
-                        <p>Login failed: You have entered an incorrect Username or password, please try again.</p>
-                </div>
+            <div id="login-error" class="error">
+              <p>Login failed: You have entered an incorrect Username or password, please try again.</p>
+            </div>
             <?php } ?>
           </div>
         </div>
-        <div id='form2' class="circle">
-        Form 2
-          <div class="loginForm">
+        <div id='signup-1' class="loginForm circle center-parent">
+          Form 2
+          <div class="center-child">
             <?php wp_login_form(); ?>
           </div>
         </div>
-        <div id='form3' class="circle">
-        Form 3
-          <div class="loginForm">
+        <div id='signup-2' class="loginForm circle center-parent">
+          Form 3
+          <div class="center-child">
             <?php wp_login_form(); ?>
           </div>
         </div>
       </div>
     </div>
-    </section>
-<?php
-  get_sidebar();
-  get_footer();
-?>
+  </section>
+  <?php
+    get_sidebar();
+    get_footer();
+  ?>
