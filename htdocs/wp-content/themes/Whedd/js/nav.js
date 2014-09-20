@@ -11,7 +11,7 @@ $(document).ready(function() {
   })
   if( $('#login-error').length ) {
     $('nav ul').hide();
-    $('#1ogin').show('slide', {direction: 'left'}, 1400);
+    $('#login').show('slide', {direction: 'left'}, 1400);
     return false;
   }
 })
