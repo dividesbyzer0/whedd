@@ -1,7 +1,7 @@
 <div class="signupForm"
   <form action="">
     <fieldset class="radioGroup">
-      <legend>Do you have a wedding date?</legend>
+      <legend>Do you have a wedding date? </legend>
       <label for="rbDateYes">
         <input type="radio" name="dateSet" value="yes" id="rbDateYes" />
         YES
@@ -69,6 +69,6 @@
   </div>
   <p>If "No," <a href="#0">skip to our vendor section</a></p>
   <div id="next_button" class="button">
-    <button>Next</button>
+     <a href="#0"class="button">Next >></a>
   </div>
 </div>
