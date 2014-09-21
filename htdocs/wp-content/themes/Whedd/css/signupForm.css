@@ -62,20 +62,13 @@
   margin-top: 10%;
 }
 
-#venueData { 
+.venueData { 
   float: left;
   font-size: 1.2rem;
   font-weight: 100;
 }
 
-#venueData input {
-  float: left;
-  font-size: 1.2rem;
-  font-weight: 100;
+#aboutVenue p {
+  font-size: 0.8125rem;
 }
 
-#aboutVenue {
-  float: left;
-  font-size: 1.2rem;
-  font-weight: 100;
-}

@@ -11,14 +11,14 @@
       </label>
     </fieldset>
     <div id="venueData">
-      <input type="text" name"venueName" placeholder="If no, enter your venue" size="40">
-      <input type="text" name"venueCity" placeholder="City" size="20">
-      <input type="text" name"venueState" placeholder="State" size="5" maxlength="2">
-      <input type="number" name"venueZip" placeholder="Zip" size="5" min="5" max="5">
+      <input type="text" class="venueData" name="venueName" placeholder="If no, enter your venue" size="40">
+      <input type="text" class="venueData" name"venueCity" placeholder="City" size="20">
+      <input type="text" class="venueData" name"venueState" placeholder="State" size="5" maxlength="2">
+      <input type="number" class="venueData" name"venueZip" placeholder="Zip" size="5" min="5" max="5">
     </div>
-    <div id="aboutVenue" class="clear">
+    <div id="aboutVenue" class="clear venueData">
       <p>Tell us about your venue </p>
-      <textarea name"venueAbout" placeholder="Describe your venue here" rows="4" cols="40">
+      <textarea name"venueAbout" class="venueData" placeholder="Describe your venue here" rows="6" cols="48">
       Describe your venue here
       </textarea>
     </div>
