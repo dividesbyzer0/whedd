@@ -11,7 +11,7 @@
         NO
       </label>
     </fieldset>
-    <div class="wDate">
+    <div class="wDate clear">
       <select id="month" name="month">
           <option value="01">January</option> 
           <option value="02">February</option>
@@ -26,7 +26,7 @@
           <option value="11">November</option>
           <option value="12">December</option>
       </select>
-      <select id="day" name="day">
+      <select id="day" name="day" class="left">
           <option value="01">1</option>
           <option value="02">2</option>
           <option value="03">3</option>
@@ -67,8 +67,9 @@
           <option value="2015">2015</option>
       </select>
   </div>
-  <p>If "No," <a href="#0">skip to our vendor section</a></p>
-  <div id="next_button" class="button">
-     <a href="#0"class="button">Next >></a>
+  <p class="redirectVender clear">If "No," <a href="#0">skip to our vendor section</a></p>
+  <div id="nextButton" class="clear button">
+    Next >>
+     <!-- <a href="#0"class="button">Next >></a> -->
   </div>
 </div>

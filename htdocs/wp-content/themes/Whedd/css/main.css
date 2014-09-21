@@ -141,9 +141,29 @@ footer{
 
 .signupForm label {
   float: right;
+  font-size: 0.625em;
 }
 
-.butoon {
+.wDate {
+  float: left;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.redirectVender {
+  float: left;
+}
+
+.redirectVender a {
+  color: inherit; 
+  text-decoration: none;
+} 
+
+#nextButton {
+  margin-top: 20%;
+}
+
+.button {
 padding: 10px 15px 11px !important;
 font-size: 18px !important;
 background-color: #57d6c7;
@@ -159,3 +179,4 @@ box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
 -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
 -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
 }
+
