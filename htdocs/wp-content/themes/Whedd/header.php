@@ -23,6 +23,7 @@
     <script type="text/javascript" src="//code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/header.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/nav.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/signupForm.js"></script>
   </head>
   <body>
     <div id="page"> 
