@@ -53,16 +53,28 @@
 #signupForm2 .nextButton {
   float: right;
   width: 40%;
-  margin-top: 50%;
+  margin-top: 10%;
 }
 
 #signupForm2 .prevButton {
   float: left;
   width: 40%;
-  margin-top: 50%;
+  margin-top: 10%;
 }
 
 #venueData { 
+  float: left;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+#venueData input {
+  float: left;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+#aboutVenue {
   float: left;
   font-size: 1.2rem;
   font-weight: 100;
