@@ -68,7 +68,7 @@
       </select>
   </div>
   <p class="redirectVender clear">If "No," <a href="#0">skip to our vendor section</a></p>
-  <div id="nextButton" class="clear button">
+  <div class="clear button nextButton">
     Next >>
      <!-- <a href="#0"class="button">Next >></a> -->
   </div>

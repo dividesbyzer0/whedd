@@ -36,15 +36,30 @@
 
 .redirectVender a {
   color: inherit; 
-} 
+}
 
-#nextButton {
-  margin-top: 50%;
+.nextButton, .prevButton {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
+} 
+
+#signupForm1 .nextButton {
+  margin-top: 50%;
+}
+
+#signupForm2 .nextButton {
+  float: right;
+  width: 40%;
+  margin-top: 50%;
+}
+
+#signupForm2 .prevButton {
+  float: left;
+  width: 40%;
+  margin-top: 50%;
 }
 
 #venueData { 

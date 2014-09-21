@@ -18,12 +18,13 @@
     </div>
     <div id="aboutVenue">
       <p>Tell us about your venue</p>
-      <input type="textarea" name"venueAbout" placeholder="Describe your venue here" rows="4" cols="40">
+      <textarea name"venueAbout" placeholder="Describe your venue here" rows="4" cols="40">
+      </textarea>
     </div>
-  <div id="prevButton" class="clear button">
-    Next >>
+  <div class="clear button prevButton">
+    << Prev
   </div>
-  <div id="nextButton" class="button">
+  <div class="button nextButton">
     Next >>
   </div>
   <div class="error hide"></div>
