@@ -1,0 +1,54 @@
+.radioGroup {
+  margin-bottom: 0.25rem;
+}
+
+.signupForm {
+  /*color: #9B9BA3;*/
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 0.8125em;
+}
+
+.signupForm legend {
+  float: left;
+}
+
+.signupForm label {
+  float: right;
+  font-size: 0.625em;
+}
+
+.wDate {
+  float: left;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.wDate select {
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+.redirectVender {
+  float: left;
+  margin-top: 0;
+}
+
+.redirectVender a {
+  color: inherit; 
+} 
+
+#nextButton {
+  margin-top: 50%;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#venueData { 
+  float: left;
+  font-size: 1.2rem;
+  font-weight: 100;
+}

@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/main.css" type="text/css" media="all" />
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/grid.css" type="text/css" media="all" />
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/alert.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/signup.css" type="text/css" media="all" />
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/std-inc.css" type="text/css" media="all" />
 <!--
     <script type="text/javascript" src="./js/jquery.js"></script>

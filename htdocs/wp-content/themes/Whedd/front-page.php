@@ -39,7 +39,13 @@ $args = array('redirect' => get_permalink( get_page( $page_id_of_member_area ) )
         <div id='signupForm2' class="loginForm circle center-parent">
           <img id="logoSignupForm2" class="logoImg" title="whedd" src="<?php bloginfo('template_directory'); ?>/images/My-logo-light.png" alt="whedd">
           <div class="center-child">
-            <?php wp_login_form(); ?>
+            <?php get_template_part( 'signup', 'form2'); ?>
+          </div>
+        </div>
+        <div id='signupForm3' class="loginForm circle center-parent">
+          <img id="logoSignupForm3" class="logoImg" title="whedd" src="<?php bloginfo('template_directory'); ?>/images/My-logo-light.png" alt="whedd">
+          <div class="center-child">
+            <?php get_template_part( 'signup', 'form1'); ?>
           </div>
         </div>
       </div>
