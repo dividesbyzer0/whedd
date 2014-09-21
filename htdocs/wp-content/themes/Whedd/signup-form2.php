@@ -1,4 +1,4 @@
-<div class="signupForm"
+<div class="signupForm">
     <fieldset class="radioGroup">
       <legend>Do you need help finding a venue? </legend>
       <label for="rbDateYes">
@@ -11,14 +11,14 @@
       </label>
     </fieldset>
     <div id="venueData clear">
-      <input type="text" class="venueData" name="venueName" placeholder="If no, enter your venue" size="40">
-      <input type="text" class="venueData clear" name"venueCity" placeholder="City" size="20">
-      <input type="text" class="venueData" name"venueState" placeholder="State" size="5" maxlength="2">
+      <input type="text" class="venueData" name="venueName" placeholder="If no, enter your venue" size="30">
+      <input type="text" class="venueData clear" name"venueCity" placeholder="City" size="15">
+      <input type="text" class="venueData" name"venueState" placeholder="State" size="2" maxlength="2">
       <input type="number" class="venueData" name"venueZip" placeholder="Zip" size="5" min="5" max="5">
     </div>
     <div id="aboutVenue" class="clear venueData">
       <p class="venueData">Tell us about your venue </p>
-      <textarea name"venueAbout" class="venueData" placeholder="Describe your venue here" rows="6" cols="40">
+      <textarea name"venueAbout" class="venueData" placeholder="Describe your venue here" rows="6" cols="25">
       Describe your venue here
       </textarea>
     </div>

@@ -14,7 +14,7 @@
 }
 
 .signupForm label {
-  float: right;
+  /*float: right;*/
   font-size: 0.625em;
 }
 
@@ -52,20 +52,20 @@
 
 #signupForm2 .nextButton {
   float: right;
-  width: 40%;
+  width: 30%;
   margin-top: 10%;
 }
 
 #signupForm2 .prevButton {
   float: left;
-  width: 40%;
+  width: 30%;
   margin-top: 10%;
 }
 
 .venueData { 
   float: left;
-  font-size: 1.2rem;
-  font-weight: 100;
+/*  font-size: 1.2rem;
+  font-weight: 100;*/
 }
 
 #aboutVenue p {
@@ -76,12 +76,11 @@
   font-size: 1rem;
 }
 
-/*#venueData input {
-  float: left;
+input.venueData {
   font-size: 1.2rem;
   font-weight: 100;
 }
-
+/*
 #aboutVenue p {
   float: left;
   font-size: 1.2rem;
