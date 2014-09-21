@@ -36,7 +36,7 @@ $args = array('redirect' => get_permalink( get_page( $page_id_of_member_area ) )
             <?php get_template_part( 'signup', 'form1'); ?>
           </div>
         </div>
-        <div id='signup-2' class="loginForm circle center-parent">
+        <div id='signupForm2' class="loginForm circle center-parent">
           Form 3
           <div class="center-child">
             <?php wp_login_form(); ?>
