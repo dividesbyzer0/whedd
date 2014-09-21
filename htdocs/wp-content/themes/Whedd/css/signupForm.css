@@ -71,6 +71,11 @@
 #aboutVenue p {
   font-size: 0.8125rem;
 }
+
+#aboutVenue textarea {
+  font-size: 1rem;
+}
+
 /*#venueData input {
   float: left;
   font-size: 1.2rem;
