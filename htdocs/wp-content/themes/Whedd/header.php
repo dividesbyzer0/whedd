@@ -31,7 +31,7 @@
       <div class="grid col-1">
       </div>
       <div class="grid col-5">
-        <img id="logo_img" title="whedd" src="<?php bloginfo('template_directory'); ?>/images/My-logo-light.png" alt="whedd">
+        <img id="logoImg" title="whedd" src="<?php bloginfo('template_directory'); ?>/images/My-logo-light.png" alt="whedd">
       </div>
       <nav class="grid col-1">
         <ul>
