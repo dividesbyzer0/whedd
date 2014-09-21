@@ -6,7 +6,7 @@ $(document).ready(function() {
   })
   $('.signup').click(function() {
     $('nav ul').hide();
-    $('#signup-1').show('slide', {direction: 'left'}, 1400);
+    $('#signupForm1').show('slide', {direction: 'left'}, 1400);
     return false;
   })
   if( $('#login-error').length ) {

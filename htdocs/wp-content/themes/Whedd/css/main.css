@@ -128,13 +128,6 @@ footer{
   display: none;
 }
 
-.signupForm {
-  /*color: #9B9BA3;*/
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  font-size: 0.8125em;
-}
-
 #logoForm {
   height: 1.875rem;
   margin-top: 5rem;
@@ -143,6 +136,14 @@ footer{
 .radioGroup {
   margin-bottom: 0.25rem;
 }
+
+.signupForm {
+  /*color: #9B9BA3;*/
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 0.8125em;
+}
+
 .signupForm legend {
   float: left;
 }
