@@ -128,4 +128,11 @@ footer{
   display: none;
 }
 
+.signupForm {
+  color: #9B9BA3;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+}
+
 
