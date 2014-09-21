@@ -128,7 +128,7 @@ footer{
   display: none;
 }
 
-#logoForm {
+.logoImg {
   height: 1.875rem;
   margin-top: 5rem;
 }
