@@ -10,9 +10,9 @@
         NO
       </label>
     </fieldset>
-    <div id="venueData">
+    <div id="venueData clear">
       <input type="text" class="venueData" name="venueName" placeholder="If no, enter your venue" size="40">
-      <input type="text" class="venueData" name"venueCity" placeholder="City" size="20">
+      <input type="text" class="venueData clear" name"venueCity" placeholder="City" size="20">
       <input type="text" class="venueData" name"venueState" placeholder="State" size="5" maxlength="2">
       <input type="number" class="venueData" name"venueZip" placeholder="Zip" size="5" min="5" max="5">
     </div>
