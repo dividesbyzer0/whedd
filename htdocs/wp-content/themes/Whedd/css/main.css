@@ -135,6 +135,14 @@ footer{
   font-size: 0.8125em;
 }
 
+#logoForm {
+  height: 1.875rem;
+  margin-top: 5rem;
+}
+
+.radioGroup {
+  margin-bottom: 0.25rem;
+}
 .signupForm legend {
   float: left;
 }
@@ -150,17 +158,22 @@ footer{
   font-weight: 400;
 }
 
+.wDate select {
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
 .redirectVender {
   float: left;
+  margin-top: 0;
 }
 
 .redirectVender a {
   color: inherit; 
-  text-decoration: none;
 } 
 
 #nextButton {
-  margin-top: 20%;
+  margin-top: 50%;
 }
 
 .button {
