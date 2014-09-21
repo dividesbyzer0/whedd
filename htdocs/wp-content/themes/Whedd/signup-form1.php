@@ -72,4 +72,6 @@
     Next >>
      <!-- <a href="#0"class="button">Next >></a> -->
   </div>
+  <div class="error hide">
+  </div>
 </div>
