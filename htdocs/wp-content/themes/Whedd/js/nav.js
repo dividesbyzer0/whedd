@@ -18,5 +18,3 @@ $(document).ready(function() {
     return false;
   }
 })
-
-$('#login').width($('#login').width());
