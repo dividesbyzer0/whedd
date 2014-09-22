@@ -10,4 +10,12 @@ $(document).ready(function() {
       return false;
     }
   })
+  $('#signupForm2 .prevButton').click(function(){
+    $('#signupForm2').hide('slide', {direction: 'left'}, 1400); $('#signupForm1').delay(600).show('slide', {direction: 'right'}, 1400);
+    return false;
+  })
+  $('#signupForm2 .nextButton').click(function(){
+    $('#signupForm2').hide('slide', {direction: 'right'}, 1400); $('#signupForm3').delay(600).show('slide', {direction: 'left'}, 1400);
+    return false;
+  })
 })

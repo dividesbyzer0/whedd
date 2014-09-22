@@ -12,8 +12,8 @@
     </fieldset>
     <div id="venueData clear">
       <input type="text" class="venueData" name="venueName" placeholder="If no, enter your venue" size="30">
-      <input type="text" class="venueData clear" name"venueCity" placeholder="City" size="15">
-      <input type="text" class="venueData" name"venueState" placeholder="State" size="2" maxlength="4">
+      <input type="text" class="venueData clear" name"venueCity" placeholder="City" size="13">
+      <input type="text" class="venueData" name"venueState" placeholder="State" size="2" maxlength="2">
       <input type="text" class="venueData" name"venueZip" placeholder="Zip" size="5" min="5" max="5">
     </div>
     <div id="aboutVenue" class="clear venueData">
