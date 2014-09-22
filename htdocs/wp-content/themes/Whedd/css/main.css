@@ -14,7 +14,7 @@ header {
   margin: 0;
   width: 100%;
   /*height: 2.5em;*/
-  height: 4.0486%;
+  height: 8.097%;
   overflow: hidden;
   position: fixed;
     -webkit-transition: all 0.3s;
@@ -29,8 +29,7 @@ header .col-5 {
 }
 
 #logoImg {
-  /*height: 2.5em;*/
-  height: 4.0486%;
+  height: 2.5rem;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
