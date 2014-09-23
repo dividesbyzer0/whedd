@@ -2,8 +2,8 @@ $(document).ready(function() {
   $('#signupForm1 .nextButton').click(function(){
     if ($("input[name='dateSet']:checked").val() ) {
       $('#main').hide('slide', {direction: 'right'}, 1400);
-      $('#signupForm1').hide();
-      $('#signupForm2').show();
+      $('#signupForm1').delay(900).hide(0);
+      $('#signupForm2').delay(1000).show(0);
       $('#main').show('slide', {direction: 'left'}, 1400);
       // $('#signupForm1').hide('slide', {direction: 'right'}, 1400); $('#signupForm2').delay(600).show('slide', {direction: 'left'}, 1400);
       return false;
@@ -15,17 +15,17 @@ $(document).ready(function() {
     }
   })
   $('#signupForm2 .prevButton').click(function(){
-    $('#main').hide('slide', {direction: 'right'}, 1400);
-    $('#signupForm2').hide();
-    $('#signupForm1').show();
-    $('#main').show('slide', {direction: 'left'}, 1400);
+    $('#main').hide('slide', {direction: 'left'}, 1400);
+    $('#signupForm2').delay(900).hide(0);
+    $('#signupForm1').delay(1000).show(0);
+    $('#main').show('slide', {direction: 'right'}, 1400);
     // $('#signupForm2').hide('slide', {direction: 'left'}, 1400); $('#signupForm1').delay(600).show('slide', {direction: 'right'}, 1400);
     return false;
   })
   $('#signupForm2 .nextButton').click(function(){
     $('#main').hide('slide', {direction: 'right'}, 1400);
-    $('#signupForm2').hide();
-    $('#signupForm3').show();
+    $('#signupForm2').delay(900).hide(0);
+    $('#signupForm3').delay(1000).show(0);
     $('#main').show('slide', {direction: 'left'}, 1400);
     // $('#signupForm2').hide('slide', {direction: 'right'}, 1400); $('#signupForm3').delay(600).show('slide', {direction: 'left'}, 1400);
     return false;
