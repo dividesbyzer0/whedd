@@ -45,7 +45,7 @@ $args = array('redirect' => get_permalink( get_page( $page_id_of_member_area ) )
         <div id='signupForm3' class="loginForm circle center-parent">
           <img id="logoSignupForm3" class="logoImg" title="whedd" src="<?php bloginfo('template_directory'); ?>/images/My-logo-light.png" alt="whedd">
           <div class="center-child">
-            <?php get_template_part( 'signup', 'form1'); ?>
+            <?php get_template_part( 'signup', 'form3'); ?>
           </div>
         </div>
       </div>
