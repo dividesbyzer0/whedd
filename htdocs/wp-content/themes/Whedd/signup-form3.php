@@ -21,42 +21,26 @@
     </div>
     <div class="center-parent row">
       <div class="center-child">
-        <div class="grid col-1">
-          <input type="checkbox" name="month" value="5">
-          MAY
-        </div>
-        <div class="grid col-2">
-          <input type="checkbox" name="month" value="6">
-          JUN
-        </div>
-        <div class="grid col-2">
-          <input type="checkbox" name="month" value="7">
-          JUL
-        </div>
-        <div class="grid col-2">
-          <input type="checkbox" name="month" value="8">
-          AUG
-        </div>
+        <input type="checkbox" name="month" value="5" class="grid col-1">
+        MAY
+        <input type="checkbox" name="month" value="6" class="grid col-2">
+        JUN
+        <input type="checkbox" name="month" value="7" class="grid col-2">
+        JUL
+        <input type="checkbox" name="month" value="8" class="grid col-2">
+        AUG
       </div>
     </div>  
     <div class="center-parent row">
       <div class="center-child">
-        <div class="grid col-1">
-          <input type="checkbox" name="month" value="9">
-          SEP
-        </div>
-        <div class="grid col-2">
-          <input type="checkbox" name="month" value="10">
-          OCT
-        </div>
-        <div class="grid col-2">
-          <input type="checkbox" name="month" value="11">
-          NOV
-        </div>
-        <div class="grid col-2">
-          <input type="checkbox" name="month" value="12">
-          DEC
-        </div>
+        <input type="checkbox" name="month" value="9" class="grid col-2">
+        SEP
+        <input type="checkbox" name="month" value="10" class="grid col-2">
+        OCT
+        <input type="checkbox" name="month" value="11" class="grid col-2">
+        NOV
+        <input type="checkbox" name="month" value="12" class="grid col-2">
+        DEC
       </div>
     </div>
   </div>
@@ -64,38 +48,24 @@
     <p class="venueData">What days of the week do you prefer? (select all that apply) </p>
     <div id="venueDay1" class="center-parent row">
       <div class="center-child">
-        <div class="grid col-1">
-          <input type="checkbox" name="month" value="0">
-          SUN
-        </div>
-        <div class="grid col-2">
-          <input type="checkbox" name="month" value="1">
-          MON
-        </div>
-        <div class="grid col-2">
-          <input type="checkbox" name="month" value="2">
-          TUE
-        </div>
-        <div class="grid col-2">
-          <input type="checkbox" name="month" value="3">
-          WED
-        </div>
+        <input type="checkbox" name="month" value="0" class="grid col-1">
+        SUN
+        <input type="checkbox" name="month" value="1" class="grid col-2">
+        MON
+        <input type="checkbox" name="month" value="2" class="grid col-2">
+        TUE
+        <input type="checkbox" name="month" value="3" class="grid col-2">
+        WED
       </div>
     </div>
     <div id="venueDay2" class="center-parent row">
       <div class="center-child">
-        <div class="grid col-1">
-          <input type="checkbox" name="month" value="4">
-          THU
-        </div>
-        <div class="grid col-2">
-          <input type="checkbox" name="month" value="5">
-          FRI
-        </div>
-        <div class="grid col-2">
-          <input type="checkbox" name="month" value="6">
-          SAT
-        </div>
+        <input type="checkbox" name="month" value="4"class="grid col-1">
+        THU
+        <input type="checkbox" name="month" value="5" class="grid col-2">
+        FRI
+        <input type="checkbox" name="month" value="6" class="grid col-2">
+        SAT
         <div class="grid col-2">
         </div>
       </div>
