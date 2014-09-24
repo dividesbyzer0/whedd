@@ -7,27 +7,19 @@
   </div>
   <div id="desiredMonth" class="clear venueData">
     <p class="venueData">What months are you considering? (select all that apply) </p>
-    <div id="venueMonth1" class="center-parent row">
+    <div class="center-parent row">
       <div class="center-child">
-        <div class="grid col-1">
-          <input type="checkbox" name="month" value="1">
+          <input type="checkbox" name="month" value="1" class="grid col-1">
           JAN
-        </div>
-        <div class="grid col-2">
-          <input type="checkbox" name="month" value="2">
+          <input type="checkbox" name="month" value="2" class="grid col-2">
           FEB
-        </div>
-        <div class="grid col-2">
-          <input type="checkbox" name="month" value="3">
+          <input type="checkbox" name="month" value="3" class="grid col-2">
           MAR
-        </div>
-        <div class="grid col-2">
-          <input type="checkbox" name="month" value="4">
+          <input type="checkbox" name="month" value="4" class="grid col-2">
           APR
-        </div>
       </div>
     </div>
-    <div id="venueMonth2" class="center-parent row">
+    <div class="center-parent row">
       <div class="center-child">
         <div class="grid col-1">
           <input type="checkbox" name="month" value="5">
@@ -47,7 +39,7 @@
         </div>
       </div>
     </div>  
-    <div id="venueMonth3" class="center-parent row">
+    <div class="center-parent row">
       <div class="center-child">
         <div class="grid col-1">
           <input type="checkbox" name="month" value="9">
