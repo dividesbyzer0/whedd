@@ -1,14 +1,8 @@
 <div class="signupForm">
     <fieldset class="radioGroup">
       <legend>Do you need help finding a venue? </legend>
-      <label for="rbDateYes">
-        <input type="radio" name="dateSet" value="yes" id="rbDateYes" />
-        YES
-      </label>
-      <label for="rbDateNo">
-        <input type="radio" name="dateSet" value="no" id="rbDateNo" />
-        NO
-      </label>
+      <label for="rbDateYes"><input type="radio" name="dateSet" value="yes" id="rbDateYes" />YES</label>
+      <label for="rbDateNo"><input type="radio" name="dateSet" value="no" id="rbDateNo"/>NO</label>
     </fieldset>
     <div id="venueData clear">
       <input type="text" class="venueData" name="venueName" placeholder="If no, enter your venue" size="30">
