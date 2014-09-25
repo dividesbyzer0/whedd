@@ -81,17 +81,7 @@ input.venueData {
   font-weight: 100;
 }
 
-.monthGroup {
-  font-size: 1rem;
-  width: 80%
-  margin: 0 10% 0 10%;
-}
-
-.monthGroup .col-1{
-  display: inline-flex;
-}
-
-.monthGroup {
+.monthGroup .row{
   font-size: 1rem;
   width: 80%;
   margin: 0 10% 0 10%;
@@ -101,23 +91,14 @@ input.venueData {
   display: inline-flex;
 }
 
-.monthGroup {
+.dayGroup .row {
   font-size: 1rem;
   width: 80%;
   margin: 0 10% 0 10%;
 }
 
-.monthGroup .col-1{
-  display: inline-flex;
-}
 
-.monthGroup {
-  font-size: 1rem;
-  width: 80%;
-  margin: 0 10% 0 10%;
-}
-
-.monthGroup .col-1{
+.dayGroup .col-1{
   display: inline-flex;
 }
 
