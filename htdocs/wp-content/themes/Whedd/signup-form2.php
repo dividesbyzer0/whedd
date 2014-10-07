@@ -11,8 +11,8 @@
       <input type="text" class="venueData" name"venueZip" placeholder="Zip" size="5" min="5" max="5">
     </div>
     <div id="aboutVenue" class="clear venueData">
-      <p class="venueData">Tell us about your venue </p>
-      <textarea name"venueAbout" class="venueData" placeholder="Describe your venue here" rows="6" cols="25">
+      <label class="venueData" for="venueDescription">Tell us about your venue </label>
+      <textarea name"venueAbout" id="venueDescription" class="venueData" placeholder="Describe your venue here" rows="6" cols="25">
       Describe your venue here
       </textarea>
     </div>

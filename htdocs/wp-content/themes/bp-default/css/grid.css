@@ -1,0 +1,42 @@
+.row {
+    overflow: hidden;
+    clear: both;
+}
+
+.row .grid:first-child {
+  margin: 1.0122% 0 1.0122% 0;
+}
+
+.grid {
+  float: left;
+  margin: 1.0122% 0 1.0122% 2.0242%; /* 20px / 16 = 1.25em */
+
+}
+
+.col-1 {
+  width: 12.5506%; /* 124px / 988px = 12.5506 */
+}
+
+.col-2 {
+  width: 27.1255%; /* ((124px*2)+20px(gutter)) / 988px = 27.1255% */
+}
+
+.col-3 {
+  width: 41.7004%; /* (124px*3)+(20px*2)(gutter) / 988px = 41.7004 */
+}
+
+.col-4 {
+  width: 56.2753%; /* (124px*4)+(20px*3)(gutter) / 988px = 56.2753% */
+}
+
+.col-5 {
+  width: 70.8502%; /* (124px*5)+(20px*4)(gutter) / 988px = 70.8502% */
+}
+
+.col-6 {
+  width: 87.4494%; /* (124px*6)+(20px*5)(gutter) / 988px = 85.4251% */
+}
+
+.col-7 {
+  width: 100%; /* (124px*7)+(20px*6)(gutter) / 988px = 100% */
+}
