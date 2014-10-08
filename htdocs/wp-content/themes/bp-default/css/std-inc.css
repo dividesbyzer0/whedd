@@ -23,6 +23,16 @@
   display: none;
 }
 
+.hide-left {
+  transform: translate(-150%);
+    -webkit-transform: translate(-150%);
+}
+
+.hide-right {
+  transform: translate(150%);
+    -webkit-transform: translate(150%);
+}
+
 .button {
   padding: 10px 15px 11px !important;
   font-size: 18px !important;

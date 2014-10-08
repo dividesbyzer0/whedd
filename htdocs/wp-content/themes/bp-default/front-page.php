@@ -18,23 +18,23 @@ get_template_part('front-page', 'header');
   <section id="content"> <!-- main site content-->
     <div id="main" class="row">
       <div class="grid col-7">
-        <div id='login' class="loginForm circle center-parent">
+        <div id='login' class="loginForm circle center-parent hide-right">
           <img id="logoLoginForm" class="logoImg" title="whedd" src="<?php bloginfo('template_directory'); ?>/images/My-logo-light.png" alt="whedd">
           <div class="center-child">
             <?php get_template_part('login', 'form'); ?>
             <div id="login-error" class="error">
               <p>Login failed: You have entered an incorrect Username or password, please try again.</p>
             </div>
-            <?php } ?>
+            <?php  ?>
           </div>
         </div>
-        <div id='signupForm1' class="loginForm circle center-parent">
+        <div id='signupForm1' class="loginForm circle center-parent hide-right">
           <img id="logoSignupForm1" class="logoImg" title="whedd" src="<?php bloginfo('template_directory'); ?>/images/My-logo-light.png" alt="whedd">
           <div class="center-child">
             <?php get_template_part('signup', 'form1'); ?>
           </div>
         </div>
-        <div id='signupForm2' class="loginForm circle center-parent">
+        <div id='signupForm2' class="loginForm circle center-parent hide-right">
           <img id="logoSignupForm2" class="logoImg" title="whedd" src="<?php bloginfo('template_directory'); ?>/images/My-logo-light.png" alt="whedd">
           <div class="center-child">
             <?php get_template_part('signup', 'form2'); ?>
