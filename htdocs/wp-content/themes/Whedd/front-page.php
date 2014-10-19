@@ -19,30 +19,8 @@ get_header();
     <section id="primary"> <!-- main site content-->
       <div id="main" class="row">
         <div class="grid col-7">
-          <div id='login' class="loginForm circle center-parent">
-            <img id="logoLoginForm" class="logoImg" title="whedd" src="<?php bloginfo('template_directory'); ?>/images/My-logo-light.png" alt="whedd">
-            <div class="center-child">
-              [theme-my-login instance="1"]
-            </div>
-          </div>
-          <div id='signupForm1' class="loginForm circle center-parent">
-            <img id="logoSignupForm1" class="logoImg" title="whedd" src="<?php bloginfo('template_directory'); ?>/images/My-logo-light.png" alt="whedd">
-            <div class="center-child">
-              <?php get_template_part( 'signup', 'form1'); ?>
-            </div>
-          </div>
-          <div id='signupForm2' class="loginForm circle center-parent">
-            <img id="logoSignupForm2" class="logoImg" title="whedd" src="<?php bloginfo('template_directory'); ?>/images/My-logo-light.png" alt="whedd">
-            <div class="center-child">
-              <?php get_template_part( 'signup', 'form2'); ?>
-            </div>
-          </div>
-          <div id='signupForm3' class="loginForm circle center-parent">
-            <img id="logoSignupForm3" class="logoImg" title="whedd" src="<?php bloginfo('template_directory'); ?>/images/My-logo-light.png" alt="whedd">
-            <div class="center-child">
-              <?php get_template_part( 'signup', 'form3'); ?>
-            </div>
-          </div>
+          [theme-my-login login_template]
+          [theme-my-login register_template]
         </div>
       </div>
     </section>
