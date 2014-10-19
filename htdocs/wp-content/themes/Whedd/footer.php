@@ -1,25 +1,22 @@
-<?php
-/**
- * The template for displaying the footer.
- *
- * Contains the closing of the #content div and all content after
- *
- * @package Whedd
- */
-?>
-
-	</div><!-- #content -->
-
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'whedd' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'whedd' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', 'whedd' ), 'Whedd', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
-</div><!-- #page -->
-
-<?php wp_footer(); ?>
-
-</body>
+    </div>
+    <section id="prefooter" class="row">
+      <article id="motto">
+        <div id="motto-col-a">'
+          <h2>whedd | Coming Soon</h2>
+        </div>
+        <div id="motto-col-b">
+          <div id="motto-title">
+            <h4>whedd (wëd):</h4>
+          </div>
+          <div id="motto-content">
+            <p>verb - To bring or join two things together. noun - The easiest way to plan a wedding™</p>
+          </div>
+        </div>
+      </article>
+    </section>
+    <footer>
+      <p>Copyright © 2014 whedd | All rights reserved</p>
+    </footer>
+    </div> 
+  </body>
 </html>

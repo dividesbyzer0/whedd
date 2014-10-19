@@ -1,15 +1,7 @@
-<?php
-/**
- * The sidebar containing the main widget area.
- *
- * @package Whedd
- */
-
-if ( ! is_active_sidebar( 'sidebar-1' ) ) {
-	return;
-}
-?>
-
-<div id="secondary" class="widget-area" role="complementary">
-	<?php dynamic_sidebar( 'sidebar-1' ); ?>
-</div><!-- #secondary -->
+   <section id="split" class="row">
+      <div class="grid col-2">
+      </div>
+      <p class="grid col-3 center-h">whedd | The easiest way to plan a wedding</p>
+      <div class="grid col-2">
+      </div>
+    </section>
