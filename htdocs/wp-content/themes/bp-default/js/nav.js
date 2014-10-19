@@ -2,9 +2,9 @@ $(document).ready(function() {
   $('.login-nav').click(function() {
     $('#logoImg').slideUp();
     $('nav ul').slideUp();
-    $('footer').hide('slide', {direction: 'down'}, 200);
-    $('#prefooter').hide('slide', {direction: 'down'}, 200);
-    $('#split').hide('slide', {direction: 'down'}, 200);
+    $('footer').addClass('hide-bottom');
+    $('#prefooter').addClass('hide-bottom');
+    $('#split').addClass('hide-bottom');
     $('#content').css('height', '100%');
     $('#login').removeClass('hide-right');
     return false;
@@ -12,9 +12,9 @@ $(document).ready(function() {
   $('.signup').click(function() {
     $('#logoImg').slideUp();
     $('nav ul').slideUp();
-    $('footer').hide('slide', {direction: 'down'}, 200);
-    $('#prefooter').hide('slide', {direction: 'down'}, 200);
-    $('#split').hide('slide', {direction: 'down'}, 200);
+    $('footer').addClass('hide-bottom');
+    $('#prefooter').addClass('hide-bottom');
+    $('#split').addClass('hide-bottom');
     $('#content').css('height', '100%');
     $('#login').removeClass('hide-right');
     return false;

@@ -22,20 +22,7 @@ $args = array('redirect' => get_permalink( get_page( $page_id_of_member_area ) )
         <div id='login' class="loginForm circle center-parent hide-right">
           <img id="logoLoginForm" class="logoImg" title="whedd" src="<?php bloginfo('template_directory'); ?>/images/My-logo-light.png" alt="whedd">
           <div class="center-child">
-            <?php theme_my_login(); ?>
-            <?php get_template_part('login', 'form'); ?>
-            <!--
-            <div id="login-error" class="error">
-              <p>Login failed: You have entered an incorrect Username or password, please try again.</p>
-            </div>
-            <?php  ?> 
-          
-            <?php wp_login_form($args); ?>
-            <?php if(isset($_GET['login']) && $_GET['login'] == 'failed') {?>
-            <div id="login-error" class="error">
-              <p>Login failed: You have entered an incorrect Username or password, please try again.</p>
-            </div>
-            <?php } ?>
+            [theme-my-login login_template]
           </div>
         </div>
         <div id='signupForm1' class="loginForm circle center-parent hide-right">
