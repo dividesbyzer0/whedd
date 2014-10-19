@@ -17,13 +17,13 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'wp_whedd');
+define('DB_NAME', 'whedd_wp');^M
 
 /** MySQL database username */
-define('DB_USER', 'wp_user');
+define('DB_USER', 'whedd_user');^M
 
 /** MySQL database password */
-define('DB_PASSWORD', 'pass4wp');
+define('DB_PASSWORD', 'pass4whedd');^M
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
