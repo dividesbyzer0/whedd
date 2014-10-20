@@ -22,7 +22,7 @@ get_header();
           <?php echo do_shortcode( '[theme-my-login register_template]' ) ?>
         </div>
       </div>
-    </section>
+    </div>
     <?php
       get_sidebar();
       get_footer();

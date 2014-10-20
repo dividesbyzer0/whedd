@@ -1,4 +1,4 @@
-    </div>
+    </section>
     <section id="prefooter" class="row">
       <article id="motto">
         <div id="motto-col-a">'
