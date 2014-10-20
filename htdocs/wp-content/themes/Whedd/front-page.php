@@ -15,6 +15,21 @@
 get_header(); 
 //$args = array('redirect' => get_permalink( get_page( $page_id_of_member_area ) ) );
 ?>
+<div id="page"> 
+  <header class="row">
+    <div class="grid col-1">
+    </div>
+    <div class="grid col-5">
+      <img id="logoImg" title="whedd" src="<?php bloginfo('template_directory'); ?>/images/My-logo-light.png" alt="whedd">
+    </div>
+    <nav class="grid col-1">
+      <ul>
+        <li class="signup"><a href="">Sign Up</a></li>
+        <li class="navbar"> | </li>
+        <li class="login-nav"><a href="">Log In</a></li>            
+      </ul>
+    </nav>
+  </header>
   <section id="content" class="site-content">
     <div id="primary"> <!-- main site content-->
       <div id="main" class="row">

@@ -27,18 +27,3 @@
     <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/signupForm.js"></script>
   </head>
   <body>
-    <div id="page"> 
-    <header class="row">
-      <div class="grid col-1">
-      </div>
-      <div class="grid col-5">
-        <img id="logoImg" title="whedd" src="<?php bloginfo('template_directory'); ?>/images/My-logo-light.png" alt="whedd">
-      </div>
-      <nav class="grid col-1">
-        <ul>
-          <li class="signup"><a href="">Sign Up</a></li>
-          <li class="navbar"> | </li>
-          <li class="login-nav"><a href="">Log In</a></li>            
-        </ul>
-      </nav>
-    </header>
