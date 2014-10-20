@@ -19,8 +19,8 @@ get_header();
     <section id="primary"> <!-- main site content-->
       <div id="main" class="row">
         <div class="grid col-7">
-          [theme-my-login login_template]
-          [theme-my-login register_template]
+          <?php echo do_shortcode( '[theme-my-login login_template]' ) ?>
+          <?php echo do_shortcode( '[theme-my-login register_template]' ) ?>
         </div>
       </div>
     </section>
