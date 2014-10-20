@@ -72,7 +72,7 @@ nav a:hover {
     color: #fff;
 }
 
-section#primary {
+section#content {
   background: url('../images/Bg-image.jpg') no-repeat center center fixed;
   /*height: 50em;*/
   height: 80%;

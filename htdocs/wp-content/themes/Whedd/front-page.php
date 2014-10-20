@@ -15,8 +15,7 @@
 get_header(); 
 //$args = array('redirect' => get_permalink( get_page( $page_id_of_member_area ) ) );
 ?>
-  <div id="content" class="site-content">
-    <section id="primary"> <!-- main site content-->
+    <div id="primary"> <!-- main site content-->
       <div id="main" class="row">
         <div class="grid col-7">
           <?php echo do_shortcode( '[theme-my-login login_template]' ) ?>
