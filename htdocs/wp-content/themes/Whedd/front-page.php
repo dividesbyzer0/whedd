@@ -16,7 +16,7 @@ get_header();
 //$args = array('redirect' => get_permalink( get_page( $page_id_of_member_area ) ) );
 ?>
 <div id="page"> 
-  <header class="row">
+  <header class="row page-header">
     <div class="grid col-1">
     </div>
     <div class="grid col-5">

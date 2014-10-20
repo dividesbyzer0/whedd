@@ -13,7 +13,7 @@
         </div>
       </article>
     </section>
-    <footer>
+    <footer class="page-footer">
       <p>Copyright © 2014 whedd | All rights reserved</p>
     </footer>
     </div> 
