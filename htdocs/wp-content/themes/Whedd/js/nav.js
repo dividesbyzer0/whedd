@@ -5,7 +5,7 @@ $(document).ready(function() {
     $('footer').hide('slide', {direction: 'down'}, 200);
     $('#prefooter').hide('slide', {direction: 'down'}, 200);
     $('#split').hide('slide', {direction: 'down'}, 200);
-    $('#primary').css('height', '100%');
+    $('#content').css('height', '100%');
     $('#main').hide();
     $('#login').show();
     $('#main').show('slide', {direction: 'left'}, 1400);
@@ -18,7 +18,7 @@ $(document).ready(function() {
     $('footer').hide('slide', {direction: 'down'}, 200);
     $('#prefooter').hide('slide', {direction: 'down'}, 200);
     $('#split').hide('slide', {direction: 'down'}, 200);
-    $('#primary').css('height', '100%');
+    $('#content').css('height', '100%');
     $('#main').hide();
     $('#signupForm1').show();
     $('#main').show('slide', {direction: 'left'}, 1400);

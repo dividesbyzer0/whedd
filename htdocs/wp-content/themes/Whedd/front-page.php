@@ -19,8 +19,8 @@ get_header();
     <div id="primary"> <!-- main site content-->
       <div id="main" class="row">
         <div class="grid col-7">
-          <?php echo do_shortcode( '[theme-my-login login_template]' ) ?>
-          <?php echo do_shortcode( '[theme-my-login register_template]' ) ?>
+          <?php echo do_shortcode( '[theme-my-login show_title="0" login_template]' ) ?>
+          <?php echo do_shortcode( '[theme-my-login show_title="0" register_template]' ) ?>
         </div>
       </div>
     </div>
