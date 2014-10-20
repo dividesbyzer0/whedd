@@ -42,4 +42,3 @@
         </ul>
       </nav>
     </header>
-    <section id="content" class="site-content">

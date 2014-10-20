@@ -15,6 +15,7 @@
 get_header(); 
 //$args = array('redirect' => get_permalink( get_page( $page_id_of_member_area ) ) );
 ?>
+  <section id="content" class="site-content">
     <div id="primary"> <!-- main site content-->
       <div id="main" class="row">
         <div class="grid col-7">
@@ -23,7 +24,8 @@ get_header();
         </div>
       </div>
     </div>
-    <?php
-      get_sidebar();
-      get_footer();
-    ?>
+  </section>
+  <?php
+    get_sidebar();
+    get_footer();
+  ?>
