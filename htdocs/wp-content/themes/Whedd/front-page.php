@@ -35,9 +35,7 @@ get_header();
           <div id='login' class="loginForm circle center-parent hide-right">
             <?php echo do_shortcode( '[theme-my-login show_title="0"]' ) ?>
           </div>
-          <div id='register' class="loginForm circle center-parent hide-right">
-            <?php echo do_shortcode( '[theme-my-login show_title="0" default_action="register"]' ) ?>
-          </div>
+          <?php echo do_shortcode( '[theme-my-login show_title="0" default_action="register"]' ) ?>
         </div>
       </div>
     </div>

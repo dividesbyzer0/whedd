@@ -24,8 +24,8 @@
 }
 
 .hide-top {
-  transform: translate(150%);
-    -webkit-transform: translate(150%);
+  transform: translateY(-150%);
+    -webkit-transform: translateY(-150%);
 }
 
 .hide-right {
@@ -34,8 +34,8 @@
 }
 
 .hide-bottom {
-  transform: translate(150%);
-    -webkit-transform: translate(150%);
+  transform: translateY(150%);
+    -webkit-transform: translateY(150%);
   transition-duration: 5s;
     -webkit-transition-duration: 5s;
 }
