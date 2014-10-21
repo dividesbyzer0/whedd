@@ -120,7 +120,7 @@ footer.page-footer {
   font-weight: 400;
 }
 
-#login {
+#login, #register {
   transition-duration: 1000ms;
     -webkit-transition-duration: 600ms;
 }

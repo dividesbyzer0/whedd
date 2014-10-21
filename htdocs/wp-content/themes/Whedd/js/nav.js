@@ -14,7 +14,7 @@ $(document).ready(function() {
     $('#prefooter').addClass('hide-bottom');
     $('#split').addClass('hide-bottom');
     $('#content').css('height', '100%');
-    $('#login').removeClass('hide-right');
+    $('#register').removeClass('hide-right');
     return false;
   })
   if( $('#login-error').length ) {
