@@ -11,26 +11,15 @@
  */
 
 get_header(); ?>
-
-	<section id="content" class="site-content"> 
-		<div id="primary" class="content-area">
-			<main id="main" class="site-main" role="main">
-
-				<?php while ( have_posts() ) : the_post(); ?>
-
-					<?php get_template_part( 'content', 'page' ); ?>
-
-					<?php
-						// If comments are open or we have at least one comment, load up the comment template
-						if ( comments_open() || get_comments_number() ) :
-							comments_template();
-						endif;
-					?>
-
-				<?php endwhile; // end of the loop. ?>
-
-			</main><!-- #main -->
-		</div><!-- #primary -->
-	</section>
-<?php get_sidebar(); ?>
-<?php get_footer(); ?>
+<div id="page">
+  <section id="content" class="page-login">
+    <div id="primary"> <!-- main site content-->
+      <div id="main" class="row">
+        <div class="grid col-7">
+          <?php echo do_shortcode( '[theme-my-login show_title="0" login_template]' ) ?>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+~        
