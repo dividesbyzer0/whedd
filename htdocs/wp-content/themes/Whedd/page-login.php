@@ -16,7 +16,9 @@ get_header(); ?>
     <div id="primary"> <!-- main site content-->
       <div id="main" class="row">
         <div class="grid col-7">
-          <?php echo do_shortcode( '[theme-my-login show_title="0" login_template]' ) ?>
+          <div class="loginForm circle center-parent">
+            <?php echo do_shortcode( '[theme-my-login show_title="0"]' ) ?>
+          </div>
         </div>
       </div>
     </div>

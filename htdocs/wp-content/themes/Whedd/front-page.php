@@ -32,8 +32,10 @@ get_header();
     <div id="primary"> <!-- main site content-->
       <div id="main" class="row">
         <div class="grid col-7">
-          <?php echo do_shortcode( '[theme-my-login show_title="0" login_template]' ) ?>
-          <?php echo do_shortcode( '[theme-my-login show_title="0" register_template]' ) ?>
+          <div id='login' class="loginForm circle center-parent hide-right">
+            <?php echo do_shortcode( '[theme-my-login show_title="0"]' ) ?>
+          </div>
+          <?php echo do_shortcode( '[theme-my-login show_title="0" default_action="register"]' ) ?>
         </div>
       </div>
     </div>
@@ -43,4 +45,3 @@ get_header();
     get_footer();
   ?>
 </div>
-<script>$('#login').addClass('hide-right');</script>
