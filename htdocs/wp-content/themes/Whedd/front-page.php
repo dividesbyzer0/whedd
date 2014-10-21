@@ -43,3 +43,4 @@ get_header();
     get_footer();
   ?>
 </div>
+<script>$('#login').addClass('hide-right');</script>

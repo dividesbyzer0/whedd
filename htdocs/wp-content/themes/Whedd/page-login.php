@@ -10,6 +10,7 @@
  * @package Whedd
  */
 
+get_header(); ?>
 
 	<section id="content" class="site-content"> 
 		<div id="primary" class="content-area">
@@ -31,3 +32,5 @@
 			</main><!-- #main -->
 		</div><!-- #primary -->
 	</section>
+<?php get_sidebar(); ?>
+<?php get_footer(); ?>
