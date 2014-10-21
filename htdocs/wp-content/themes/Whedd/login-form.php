@@ -1,4 +1,4 @@
-<div id='login' class="loginForm circle center-parent">
+<div id='login' class="loginForm circle center-parent hide-right">
   <img id="logoLoginForm" class="logoImg" title="whedd" src="<?php bloginfo('template_directory'); ?>/images/My-logo-light.png" alt="whedd">
   <div class="center-child">
     <div class="login" id="theme-my-login<?php $template->the_instance(); ?>">

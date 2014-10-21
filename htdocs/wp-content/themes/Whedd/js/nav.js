@@ -1,10 +1,8 @@
 $(document).ready(function() {
   $('.login-nav').click(function() {
-    $('#logoImg').slideUp();
-    $('nav ul').slideUp();
-    $('footer').addClass('hide-bottom');
-    $('#prefooter').addClass('hide-bottom');
-    $('#split').addClass('hide-bottom');
+    $('#logoImg, nav ul').slideUp();
+    $('footer, #prefooter, #split').addClass('hide-bottom');
+    $('footer, #prefooter, #split').css('display', 'none');
     $('#content').css('height', '100%');
     $('#login').removeClass('hide-right');
     return false;

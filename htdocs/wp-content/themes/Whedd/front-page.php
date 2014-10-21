@@ -11,9 +11,7 @@
  * @package Shape
  * @since Shape 1.0
  */
- 
 get_header(); 
-//$args = array('redirect' => get_permalink( get_page( $page_id_of_member_area ) ) );
 ?>
 <div id="page"> 
   <header class="row page-header">
@@ -44,3 +42,4 @@ get_header();
     get_sidebar();
     get_footer();
   ?>
+</div>
