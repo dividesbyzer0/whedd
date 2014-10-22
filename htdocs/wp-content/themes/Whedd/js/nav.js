@@ -2,17 +2,17 @@ $(document).ready(function() {
   $('.login-nav').click(function() {
     $('#logoImg, nav ul').slideUp();
     $('footer, #prefooter, #split').addClass('hide-bottom');
-    $('footer, #prefooter, #split').css('display', 'none');
+    $('footer, #prefooter, #split').hide();
     $('#content').css('height', '100%');
-    $('#login').removeClass('hide-right');
+    $('#login').removeClass('hide hide-right');
     return false;
   })
   $('.signup').click(function() {
     $('#logoImg, nav ul').slideUp();
     $('footer, #prefooter, #split').addClass('hide-bottom');
-    $('footer, #prefooter, #split').css('display', 'none');
+    $('footer, #prefooter, #split').hide();
     $('#content').css('height', '100%');
-    $('#register').removeClass('hide-right');
+    $('#signupForm1').removeClass('hide hide-right');
     return false;
   })
   if( $('#login-error').length ) {

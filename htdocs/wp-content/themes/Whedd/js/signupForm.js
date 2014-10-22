@@ -2,9 +2,8 @@ $(document).ready(function() {
   $('#signupForm1 .nextButton').click(function(){
     if ($("input[name='dateSet']:checked").val() ) {
       $('#main').hide('slide', {direction: 'right'}, 1400);
-      $('#signupForm1').delay(900).hide(0);
-      $('#signupForm2').delay(1000).show(0);
-      $('#main').show('slide', {direction: 'left'}, 1400);
+      $('#signupForm1').addClass('hide-left').delay(500).addClass('hide');
+      $('#signupForm2').removeClass('hide hide-right');
       // $('#signupForm1').hide('slide', {direction: 'right'}, 1400); $('#signupForm2').delay(600).show('slide', {direction: 'left'}, 1400);
       return false;
     } else {

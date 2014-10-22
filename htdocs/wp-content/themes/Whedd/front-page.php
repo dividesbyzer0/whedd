@@ -32,7 +32,7 @@ get_header();
     <div id="primary"> <!-- main site content-->
       <div id="main" class="row">
         <div class="grid col-7">
-          <div id='login' class="loginForm circle center-parent hide-right">
+          <div id='login' class="loginForm circle center-parent hide hide-right">
             <?php echo do_shortcode( '[theme-my-login show_title="0"]' ) ?>
           </div>
           <?php echo do_shortcode( '[theme-my-login show_title="0" default_action="register"]' ) ?>
