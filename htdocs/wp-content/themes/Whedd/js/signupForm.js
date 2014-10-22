@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $.fn.showRight = function()  {
     $(this).removeClass('hide')
-                .delay(500)
+                .delay(250)
                 .queue(function() {
                   $(this).removeClass('hide-right');
                   $(this).dequeue();
@@ -11,7 +11,7 @@ $(document).ready(function() {
 
   $.fn.showLeft = function() {
     $(this).removeClass('hide')
-                .delay(500)
+                .delay(250)
                 .queue(function() {
                   $(this).removeClass('hide-left');
                   $(this).dequeue();
@@ -21,7 +21,7 @@ $(document).ready(function() {
 
   $.fn.hideRight = function() {
     $(this).addClass('hide-right')
-                .delay(500)
+                .delay(250)
                 .queue(function() {
                   $(this).addClass('hide');
                   $(this).dequeue();
@@ -31,7 +31,7 @@ $(document).ready(function() {
 
   $.fn.hideLeft = function() {
     $(this).addClass('hide-left')
-                .delay(500)
+                .delay(250)
                 .queue(function() {
                   $(this).addClass('hide');
                   $(this).dequeue();
@@ -39,14 +39,13 @@ $(document).ready(function() {
     return this;
   };
 
-
   $('#signupForm1 .nextButton').click(function(){
     if ($("input[name='dateSet']:checked").val() ) {
       $('#signupForm1').hideLeft()
-                       .delay(500)
+                       .delay(250)
                        .queue(function() {
                           $('#signupForm2').showRight();
-                          $('#signupForm2').dequeue();
+                          $('#signupForm1').dequeue();
                        });
       return false;
     } else {
@@ -58,73 +57,73 @@ $(document).ready(function() {
   })
   $('#signupForm2 .prevButton').click(function(){
     $('#signupForm2').hideRight()
-                      .delay(500)
+                      .delay(250)
                       .queue(function() {
                         $('#signupForm1').showLeft();
-                        $('#signupForm1').dequeue();
+                        $('#signupForm2').dequeue();
                       });
     return false;
   })
   $('#signupForm2 .nextButton').click(function(){
     $('#signupForm2').hideLeft()
-                      .delay(500)
+                      .delay(250)
                       .queue(function() {
                         $('#signupForm3').showRight();
-                        $('#signupForm3').dequeue();
+                        $('#signupForm2').dequeue();
                       });
     return false;
   })
   $('#signupForm3 .prevButton').click(function(){
     $('#signupForm3').hideRight()
-                      .delay(500)
+                      .delay(250)
                       .queue(function() {
                         $('#signupForm2').showLeft();
-                        $('#signupForm2').dequeue();
+                        $('#signupForm3').dequeue();
                       });
     return false;
   })
   $('#signupForm3 .nextButton').click(function(){
     $('#signupForm3').hideLeft()
-                      .delay(500)
+                      .delay(250)
                       .queue(function() {
                         $('#signupForm4').showRight();
-                        $('#signupForm4').dequeue();
+                        $('#signupForm3').dequeue();
                       });
     return false;
   })  
   $('#signupForm4 .prevButton').click(function(){
     $('#signupForm4').hideRight()
-                      .delay(500)
+                      .delay(250)
                       .queue(function() {
                         $('#signupForm3').showLeft();
-                        $('#signupForm3').dequeue();
+                        $('#signupForm4').dequeue();
                       });
     return false;
   })
   $('#signupForm4 .nextButton').click(function(){
     $('#signupForm4').hideLeft()
-                      .delay(500)
+                      .delay(250)
                       .queue(function() {
                         $('#signupForm5').showRight();
-                        $('#signupForm5').dequeue();
+                        $('#signupForm4').dequeue();
                       });
     return false;
   })
   $('#signupForm5 .prevButton').click(function(){
     $('#signupForm5').hideRight()
-                      .delay(500)
+                      .delay(250)
                       .queue(function() {
                         $('#signupForm4').showLeft();
-                        $('#signupForm4').dequeue();
+                        $('#signupForm5').dequeue();
                       });
     return false;
   })
   $('#signupForm5 .nextButton').click(function(){
     $('#signupForm5').hideLeft()
-                      .delay(500)
+                      .delay(250)
                       .queue(function() {
                         $('#signupForm6').showRight();
-                        $('#signupForm6').dequeue();
+                        $('#signupForm5').dequeue();
                       });
     return false;
   })  

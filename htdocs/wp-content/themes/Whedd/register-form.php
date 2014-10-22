@@ -38,5 +38,4 @@ Theme My Login will always look in your theme's directory first, before using th
       </div>
     </div>
     </form>
-  <?php $template->the_action_links( array( 'register' => false ) ); ?>
 </div>
