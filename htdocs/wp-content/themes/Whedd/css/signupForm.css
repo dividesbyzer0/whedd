@@ -4,6 +4,9 @@
 
 #signupForm1, #signupForm2, #signupForm3, #signupForm4, #signupForm5 {
   /*display: none;*/
+  transition-duration: 1000ms;
+    -webkit-transition-duration: 600ms;
+}
 }
 
 .signupForm {
