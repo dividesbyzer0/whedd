@@ -14,7 +14,6 @@ $(document).ready(function() {
     $('#logoImg, nav ul').slideUp();
     $('footer, #prefooter, #split').addClass('hide-bottom').delay(500).hide();
     $('#content').css('height', '100%');
-    $('#signupForm1').removeClass('hide hide-right');
     $('#signupForm1').removeClass('hide')
                 .delay(500)
                 .queue(function() { 

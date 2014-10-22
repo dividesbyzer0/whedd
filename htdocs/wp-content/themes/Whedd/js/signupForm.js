@@ -1,8 +1,50 @@
 $(document).ready(function() {
+  function hideLeft(selector) {
+    $(selector).addClass('hide-left')
+                .delay(500)
+                .queue(function() { 
+                  $(selector).addClass('hide'); 
+                });
+  }
+
+  function hideRight(selector) {
+    $(selector).addClass('hide-right')
+                .delay(500)
+                .queue(function() { 
+                  $(selector).addClass('hide'); 
+                });
+  }
+
+  function showLeft(selector) {
+    $(selector).removeClass('hide')
+                .delay(500)
+                .queue(function() { 
+                  $(selector).removeClass('hide-left'); 
+                });
+  }
+
+  function showRight(selector) {
+    $(selector).removeClass('hide')
+                .delay(500)
+                .queue(function() { 
+                  $(selector).removeClass('hide-right'); 
+                });
+  }
+
   $('#signupForm1 .nextButton').click(function(){
     if ($("input[name='dateSet']:checked").val() ) {
-      $('#signupForm1').addClass('hide-left').delay(500).hide();
-      $('#signupForm2').show().removeClass('hide hide-right');
+      hideLeft('#signupForm1');
+      showRight('#signupForm2');
+      // $('#signupForm1').addClass('hide-left')
+      //           .delay(500)
+      //           .queue(function() { 
+      //             $('#signupForm1').addClass('hide'); 
+      //           });
+      // $('#signupForm2').removeClass('hide')
+      //           .delay(500)
+      //           .queue(function() { 
+      //             $('#signupForm2').removeClass('hide-right'); 
+      //           });
       // $('#signupForm1').hide('slide', {direction: 'right'}, 1400); $('#signupForm2').delay(600).show('slide', {direction: 'left'}, 1400);
       return false;
     } else {
@@ -13,18 +55,34 @@ $(document).ready(function() {
     }
   })
   $('#signupForm2 .prevButton').click(function(){
-    $('#main').hide('slide', {direction: 'left'}, 1400);
-    $('#signupForm2').delay(900).hide(0);
-    $('#signupForm1').delay(1000).show(0);
-    $('#main').show('slide', {direction: 'right'}, 1400);
+    hideRight('#signupForm2');
+    showLeft('#signupForm1');
+    // $('#signupForm2').addClass('hide-right')
+    //             .delay(500)
+    //             .queue(function() { 
+    //               $('#signupForm2').addClass('hide'); 
+    //             });
+    // $('#signupForm1').removeClass('hide')
+    //             .delay(500)
+    //             .queue(function() { 
+    //               $('#signupForm1').removeClass('hide-left'); 
+    //             });
     // $('#signupForm2').hide('slide', {direction: 'left'}, 1400); $('#signupForm1').delay(600).show('slide', {direction: 'right'}, 1400);
     return false;
   })
   $('#signupForm2 .nextButton').click(function(){
-    $('#main').hide('slide', {direction: 'right'}, 1400);
-    $('#signupForm2').delay(900).hide(0);
-    $('#signupForm3').delay(1000).show(0);
-    $('#main').show('slide', {direction: 'left'}, 1400);
+    hideLeft('#signupForm2');
+    showRight('#signupForm3');
+    // $('#signupForm2').addClass('hide-left')
+    //             .delay(500)
+    //             .queue(function() { 
+    //               $('#signupForm1').addClass('hide'); 
+    //             });
+    //   $('#signupForm3').removeClass('hide')
+    //             .delay(500)
+    //             .queue(function() { 
+    //               $('#signupForm3').removeClass('hide-right'); 
+    //             });
     // $('#signupForm2').hide('slide', {direction: 'right'}, 1400); $('#signupForm3').delay(600).show('slide', {direction: 'left'}, 1400);
     return false;
   })
