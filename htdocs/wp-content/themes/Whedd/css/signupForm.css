@@ -2,8 +2,8 @@
   margin-bottom: 0.25rem;
 }
 
-#signupForm1, #signupForm2, #signupForm3, #signupForm4, #signupForm5{
-  display: none;
+#signupForm1, #signupForm2, #signupForm3, #signupForm4, #signupForm5 {
+  /*display: none;*/
 }
 
 .signupForm {

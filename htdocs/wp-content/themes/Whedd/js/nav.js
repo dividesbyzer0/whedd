@@ -3,7 +3,11 @@ $(document).ready(function() {
     $('#logoImg, nav ul').slideUp();
     $('footer, #prefooter, #split').addClass('hide-bottom').delay(500).hide();
     $('#content').css('height', '100%');
-    $('#login').show().removeClass('hide-right');
+    $('#login').removeClass('hide')
+                .delay(500)
+                .queue(function() { 
+                  $('#login').removeClass('hide-right'); 
+                });
     return false;
   })
   $('.signup').click(function() {
@@ -11,6 +15,11 @@ $(document).ready(function() {
     $('footer, #prefooter, #split').addClass('hide-bottom').delay(500).hide();
     $('#content').css('height', '100%');
     $('#signupForm1').removeClass('hide hide-right');
+    $('#signupForm1').removeClass('hide')
+                .delay(500)
+                .queue(function() { 
+                  $('#signupForm1').removeClass('hide-right'); 
+                });
     return false;
   })
   if( $('#login-error').length ) {
