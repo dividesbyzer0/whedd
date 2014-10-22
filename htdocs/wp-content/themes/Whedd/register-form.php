@@ -37,4 +37,6 @@ Theme My Login will always look in your theme's directory first, before using th
         <?php get_template_part( 'signup', 'form5'); ?>
       </div>
     </div>
+    </form>
+  <?php $template->the_action_links( array( 'register' => false ) ); ?>
 </div>
