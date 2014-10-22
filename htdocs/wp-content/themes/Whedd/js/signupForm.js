@@ -1,51 +1,49 @@
 $(document).ready(function() {
-  function hideLeft(selector) {
-    $(selector).addClass('hide-left')
+  $.fn.showRight = function()  {
+    $(this).removeClass('hide')
                 .delay(500)
-                .queue(function() { 
-                  $(selector).addClass('hide'); 
+                .queue(function() {
+                  $(this).removeClass('hide-right');
+                  $(this).dequeue();
                 });
+    return this;
   }
 
-  function hideRight(selector) {
-    $(selector).addClass('hide-right')
+  $.fn.showLeft = function() {
+    $(this).removeClass('hide')
                 .delay(500)
-                .queue(function() { 
-                  $(selector).addClass('hide'); 
+                .queue(function() {
+                  $(this).removeClass('hide-left');
+                  $(this).dequeue();
                 });
+    return this;
   }
 
-  function showLeft(selector) {
-    $(selector).removeClass('hide')
+  $.fn.hideRight = function() {
+    $(this).addClass('hide-right')
                 .delay(500)
-                .queue(function() { 
-                  $(selector).removeClass('hide-left'); 
+                .queue(function() {
+                  $(this).addClass('hide');
+                  $(this).dequeue();
                 });
+    return this;
   }
 
-  function showRight(selector) {
-    $(selector).removeClass('hide')
+  $.fn.hideLeft = function() {
+    $(this).addClass('hide-left')
                 .delay(500)
-                .queue(function() { 
-                  $(selector).removeClass('hide-right'); 
-                });
-  }
+                .queue(function() {
+                  $(this).addClass('hide');
+                  $(this).dequeue();
+           });
+    return this;
+  };
+
 
   $('#signupForm1 .nextButton').click(function(){
     if ($("input[name='dateSet']:checked").val() ) {
-      hideLeft('#signupForm1');
-      showRight('#signupForm2');
-      // $('#signupForm1').addClass('hide-left')
-      //           .delay(500)
-      //           .queue(function() { 
-      //             $('#signupForm1').addClass('hide'); 
-      //           });
-      // $('#signupForm2').removeClass('hide')
-      //           .delay(500)
-      //           .queue(function() { 
-      //             $('#signupForm2').removeClass('hide-right'); 
-      //           });
-      // $('#signupForm1').hide('slide', {direction: 'right'}, 1400); $('#signupForm2').delay(600).show('slide', {direction: 'left'}, 1400);
+      $('#signupForm1').hideLeft();
+      $('#signupForm2').showRight();
       return false;
     } else {
       $('#signupForm1 .error').html('<p>Please choose "Yes" or "No" and select a date</p>');
@@ -55,35 +53,43 @@ $(document).ready(function() {
     }
   })
   $('#signupForm2 .prevButton').click(function(){
-    hideRight('#signupForm2');
-    showLeft('#signupForm1');
-    // $('#signupForm2').addClass('hide-right')
-    //             .delay(500)
-    //             .queue(function() { 
-    //               $('#signupForm2').addClass('hide'); 
-    //             });
-    // $('#signupForm1').removeClass('hide')
-    //             .delay(500)
-    //             .queue(function() { 
-    //               $('#signupForm1').removeClass('hide-left'); 
-    //             });
-    // $('#signupForm2').hide('slide', {direction: 'left'}, 1400); $('#signupForm1').delay(600).show('slide', {direction: 'right'}, 1400);
+    $('#signupForm2').hideRight();
+    $('#signupForm1').showLeft();
     return false;
   })
   $('#signupForm2 .nextButton').click(function(){
-    hideLeft('#signupForm2');
-    showRight('#signupForm3');
-    // $('#signupForm2').addClass('hide-left')
-    //             .delay(500)
-    //             .queue(function() { 
-    //               $('#signupForm1').addClass('hide'); 
-    //             });
-    //   $('#signupForm3').removeClass('hide')
-    //             .delay(500)
-    //             .queue(function() { 
-    //               $('#signupForm3').removeClass('hide-right'); 
-    //             });
-    // $('#signupForm2').hide('slide', {direction: 'right'}, 1400); $('#signupForm3').delay(600).show('slide', {direction: 'left'}, 1400);
+    $('#signupForm2').hideLeft();
+    $('#signupForm3').showRight();
     return false;
   })
+  $('#signupForm3 .prevButton').click(function(){
+    $('#signupForm3').hideRight();
+    $('#signupForm2').showLeft();
+    return false;
+  })
+  $('#signupForm3 .nextButton').click(function(){
+    $('#signupForm3').hideLeft();
+    $('#signupForm4').showRight();
+    return false;
+  })  
+  $('#signupForm4 .prevButton').click(function(){
+    $('#signupForm4').hideRight();
+    $('#signupForm3').showLeft();
+    return false;
+  })
+  $('#signupForm4 .nextButton').click(function(){
+    $('#signupForm4').hideLeft();
+    $('#signupForm5').showRight();
+    return false;
+  })
+  $('#signupForm5 .prevButton').click(function(){
+    $('#signupForm5').hideRight();
+    $('#signupForm4').showLeft();
+    return false;
+  })
+  $('#signupForm5 .nextButton').click(function(){
+    $('#signupForm5').hideLeft();
+    $('#signupForm6').showRight();
+    return false;
+  })  
 })

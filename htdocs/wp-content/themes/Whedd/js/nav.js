@@ -6,7 +6,8 @@ $(document).ready(function() {
     $('#login').removeClass('hide')
                 .delay(500)
                 .queue(function() { 
-                  $('#login').removeClass('hide-right'); 
+                  $('#login').removeClass('hide-right');
+                  $('#login').dequeue(); 
                 });
     return false;
   })
@@ -18,6 +19,7 @@ $(document).ready(function() {
                 .delay(500)
                 .queue(function() { 
                   $('#signupForm1').removeClass('hide-right'); 
+                  $('#signupForm1').dequeue();
                 });
     return false;
   })
